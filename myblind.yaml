@@ -110,7 +110,6 @@ stepper:
     # Optional:
     acceleration: inf
     deceleration: inf  
-    sleep_when_done: false  
 
 globals:
   - id: ${mystepper}_global # Integer for storing the stepper position in case of reboot
