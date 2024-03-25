@@ -30,21 +30,22 @@ substitutions:
 
   mystepper: my_stepper # Name of the stepper motor (leave as is)
   reportin: "0" # Set if you want the blind to report position while moving (causes delay)  
-  step_pin: "14" # Swap these \_ coil a
-  dir_pin: "16" # Swap these /
+  step_pin: "27" # Swap these \_ coil a
+  dir_pin: "25" # Swap these /
 
   mystepper_2: my_stepper_2 # Name of the stepper motor (leave as is)
   reportin_2: "0" # Set if you want the blind to report position while moving (causes delay)
-  step_pin_2: "4"
-  dir_pin_2: "5"  
+  step_pin_2: "5"
+  dir_pin_2: "4"  
 # NOTE:  If you find that your shades are going the wrong way, you can change the pin
 #        settings or reverse the + and – wires for each of the A and B motor
 #        pairs on your driver and the motor will spin in the opposite direction.
 
 # These pinouts are for the original 'Motor on a Roller Blind'esphome:
-esp8266:
-  board: esp01_1m
-  restore_from_flash: true
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
   
 esphome:
   name: $devicename
@@ -313,8 +314,9 @@ switch:
   - platform: gpio
     name: Hold Function
     pin:
-      number: 15
+      number: 16
       inverted: True
+    restore_mode: RESTORE_DEFAULT_ON
 
 button:
   - platform: template
