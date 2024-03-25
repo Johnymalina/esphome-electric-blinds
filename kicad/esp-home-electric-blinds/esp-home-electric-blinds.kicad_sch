@@ -4390,7 +4390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "connectors_johnymalina:JST_smd_1x04_horizontal"
 			(at 360.68 100.33 0)
 			(effects
 				(font
@@ -4464,7 +4464,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "components_johnymalina:car_fuse_holder"
 			(at 87.63 157.988 90)
 			(effects
 				(font
@@ -4534,7 +4534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "connectors_johnymalina:JST_smd_1x04_horizontal"
 			(at 360.68 172.72 0)
 			(effects
 				(font
@@ -4932,7 +4932,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "connectors_johnymalina:ScrewTerminal_01x02"
 			(at 43.18 160.02 0)
 			(effects
 				(font
@@ -5332,7 +5332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "connectors_johnymalina:JST_smd_1x05_horizontal"
 			(at 210.82 232.41 0)
 			(effects
 				(font
@@ -5541,7 +5541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MODULE_TMC2208_SILENTSTEPSTICK"
+		(property "Footprint" "components_johnymalina:TMC2208_Module"
 			(at 330.2 100.33 0)
 			(effects
 				(font
@@ -5808,7 +5808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MODULE_TMC2208_SILENTSTEPSTICK"
+		(property "Footprint" "components_johnymalina:TMC2208_Module"
 			(at 330.2 172.72 0)
 			(effects
 				(font
