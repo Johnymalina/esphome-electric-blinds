@@ -36,7 +36,7 @@ substitutions:
 
   mystepper_2: my_stepper_2 # Name of the stepper motor (leave as is)
   reportin_2: "0" # Set if you want the blind to report position while moving (causes delay)
-  step_pin_2: "5"
+  step_pin_2: "17"
   dir_pin_2: "4"  
 # NOTE:  If you find that your shades are going the wrong way, you can change the pin
 #        settings or reverse the + and – wires for each of the A and B motor
