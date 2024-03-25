@@ -27,6 +27,7 @@ substitutions:
 
   
   speed: 1500 steps/s # Set the speed of the motor
+  en_pin: "16"
 
   mystepper: my_stepper # Name of the stepper motor (leave as is)
   reportin: "0" # Set if you want the blind to report position while moving (causes delay)  
@@ -312,9 +313,9 @@ switch:
             value:  '0'
 
   - platform: gpio
-    name: Hold Function
+    name: Steppers Enabled
     pin:
-      number: 16
+      number: $en_pin
       inverted: True
     restore_mode: RESTORE_DEFAULT_ON
 
