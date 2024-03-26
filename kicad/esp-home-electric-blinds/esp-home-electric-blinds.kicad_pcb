@@ -536,7 +536,7 @@
 		(uuid "1ee91cdb-6af9-4cf7-ab29-9134ddedd17c")
 		(at 78 114.5)
 		(property "Reference" "U1"
-			(at -3.81 1.27 360)
+			(at -3.81 1.27 0)
 			(layer "F.SilkS")
 			(uuid "4239e35e-9702-4506-9d82-cdbf97e8ebac")
 			(effects
@@ -547,7 +547,7 @@
 			)
 		)
 		(property "Value" "ESP32_mini"
-			(at 0 -1.27 360)
+			(at 0 -1.27 0)
 			(layer "F.Fab")
 			(uuid "78461893-f8d0-41ea-b6a4-32fc6f3ecb95")
 			(effects
@@ -938,7 +938,7 @@
 			(uuid "51a4652c-f8e4-48aa-bb2d-baab26341c7f")
 		)
 		(fp_text user "USB"
-			(at 0 16.51 360)
+			(at 0 16.51 0)
 			(layer "Dwgs.User")
 			(uuid "70e36e14-87a9-4fd5-9080-ad03b3964202")
 			(effects
@@ -949,7 +949,7 @@
 			)
 		)
 		(fp_text user "NO COPPER - KEEP OUT"
-			(at 0 -15.24 360)
+			(at 0 -15.24 0)
 			(layer "Dwgs.User")
 			(uuid "871634d8-6f79-4598-a51d-3855d1054124")
 			(effects
@@ -2081,7 +2081,7 @@
 		(uuid "dc4f6b21-31c1-4492-999e-4c8eeef460c7")
 		(at 85.678333 53.374)
 		(property "Reference" "U2"
-			(at -3.73 11.626 360)
+			(at -3.73 11.626 0)
 			(layer "F.SilkS")
 			(uuid "a62c7d60-ca86-4023-a59d-03b4c63eb417")
 			(effects
@@ -2092,7 +2092,7 @@
 			)
 		)
 		(property "Value" "TMC2208_Stepper_driver"
-			(at 19.07 11.411 360)
+			(at 19.07 11.411 0)
 			(layer "F.Fab")
 			(uuid "a5d6171e-f6dd-4896-9588-60b94a005f94")
 			(effects
