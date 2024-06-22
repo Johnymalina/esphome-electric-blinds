@@ -3640,7 +3640,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 115.57) (xy 205.74 115.57)
+			(xy 222.25 115.57) (xy 205.74 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3710,7 +3710,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 120.65) (xy 205.74 120.65)
+			(xy 222.25 120.65) (xy 205.74 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3767,6 +3767,16 @@
 			(type default)
 		)
 		(uuid "6d96dfb8-2d04-41c0-9876-52113afcf744")
+	)
+	(wire
+		(pts
+			(xy 182.88 234.95) (xy 182.88 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dcd9f97-4bb8-462d-8553-e3b4c5ca16da")
 	)
 	(polyline
 		(pts
@@ -4120,16 +4130,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 234.95) (xy 205.74 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfe27f41-1e49-495c-b7ad-0846912360c9")
-	)
-	(wire
-		(pts
 			(xy 77.47 161.29) (xy 87.63 161.29)
 		)
 		(stroke
@@ -4297,6 +4297,16 @@
 			(type default)
 		)
 		(uuid "e2b539cc-c81d-48bd-ab40-0075e2acbe94")
+	)
+	(wire
+		(pts
+			(xy 205.74 234.95) (xy 182.88 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3463f24-dfd1-40bc-b3bf-a917dc0ad731")
 	)
 	(polyline
 		(pts
@@ -4552,7 +4562,7 @@
 	)
 	(global_label "IO_19"
 		(shape input)
-		(at 203.2 234.95 180)
+		(at 203.2 229.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4562,7 +4572,7 @@
 		)
 		(uuid "0aff24a2-059c-4e69-b456-9524af488c53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.8929 234.95 0)
+			(at 194.8929 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,28 +4626,6 @@
 			)
 		)
 	)
-	(global_label "EN_PIN"
-		(shape input)
-		(at 307.34 162.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "254ca6cd-f5fc-495d-81f0-de9daaecd27d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.7024 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DIR_PIN"
 		(shape input)
 		(at 309.88 95.25 180)
@@ -4678,28 +4666,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO_32"
-		(shape input)
-		(at 203.2 229.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "376ef1a8-5733-4eea-925f-85e7c19087e5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.8929 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4794,7 +4760,7 @@
 	)
 	(global_label "IO_19"
 		(shape input)
-		(at 219.71 115.57 0)
+		(at 222.25 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4804,7 +4770,7 @@
 		)
 		(uuid "863f0a0a-0410-4668-a4bd-e64fb375aec9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.0171 115.57 0)
+			(at 230.5571 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +4826,7 @@
 	)
 	(global_label "IO_33"
 		(shape input)
-		(at 219.71 120.65 0)
+		(at 222.25 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4870,7 +4836,7 @@
 		)
 		(uuid "9e420ee7-477f-46e0-9495-92b42105f56e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.0171 120.65 0)
+			(at 230.5571 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,28 +4864,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO_32"
-		(shape input)
-		(at 209.55 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c80b1c02-3d89-4f16-9d91-386b8c6cf465")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.8571 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5003,6 +4947,50 @@
 		(uuid "e6cc38ec-9f1a-458d-93b7-7a5cd4d864e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 297.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN_PIN_2"
+		(shape input)
+		(at 209.55 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3ad7ecb-e4b5-40b0-b3ff-c1664e1942ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.3647 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN_PIN_2"
+		(shape input)
+		(at 307.34 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7ab093d-a6d6-490b-aa4f-e9729d187abf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.5253 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,6 +5138,72 @@
 			(project "esp-home-electric-blinds"
 				(path "/07d3a4e0-56e5-4d89-afd4-c6828a783612"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 182.88 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19674e9d-de43-4640-af62-ee8d6b3fe013")
+		(property "Reference" "#PWR013"
+			(at 182.88 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 182.88 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 182.88 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cbb1f22-61f9-47e9-bc43-25e21c5ded12")
+		)
+		(instances
+			(project "esp-home-electric-blinds"
+				(path "/07d3a4e0-56e5-4d89-afd4-c6828a783612"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
