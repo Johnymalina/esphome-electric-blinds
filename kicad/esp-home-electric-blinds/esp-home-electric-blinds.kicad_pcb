@@ -151,7 +151,7 @@
 		(descr "JST XAG series connector, SM05B-XAGKS-BN-TB (http://www.jst-mfg.com/product/pdf/eng/eXAG.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XAG top entry")
 		(property "Reference" "J4"
-			(at 10.414 0.508 270)
+			(at 10.414 0.508 -90)
 			(layer "F.SilkS")
 			(uuid "a8c96e36-3cb7-4a1c-b0a5-2868b077829b")
 			(effects
@@ -181,6 +181,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -193,6 +194,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -205,6 +207,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -547,7 +550,7 @@
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J1"
-			(at 9.54 -1 360)
+			(at 9.54 -1 0)
 			(layer "F.SilkS")
 			(uuid "cccf04aa-b7c3-4275-abf5-9fd32f34b91e")
 			(effects
@@ -558,7 +561,7 @@
 			)
 		)
 		(property "Value" "AC_IN"
-			(at 2.54 5.08 360)
+			(at 2.54 5.08 0)
 			(layer "F.Fab")
 			(uuid "b4c0df09-d260-4df9-bf33-0930361e642b")
 			(effects
@@ -577,6 +580,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -589,6 +593,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -601,6 +606,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -750,7 +756,7 @@
 			(uuid "65e8b515-74fb-4ab6-97c6-84adda4a0e36")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 360)
+			(at 2.54 0 0)
 			(layer "F.Fab")
 			(uuid "172bffc3-4ec3-40fb-b0b9-6b535116f84a")
 			(effects
@@ -801,7 +807,7 @@
 		(descr "JST XAG series connector, SM05B-XAGKS-BN-TB (http://www.jst-mfg.com/product/pdf/eng/eXAG.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XAG top entry")
 		(property "Reference" "J6"
-			(at 0.58685 -8.084125 360)
+			(at 0.58685 -8.084125 0)
 			(layer "F.SilkS")
 			(uuid "aedb90ce-c5bc-46bb-8aec-3d47bf8d9b87")
 			(effects
@@ -812,7 +818,7 @@
 			)
 		)
 		(property "Value" "Stepper_1_conn"
-			(at 0 7.62 270)
+			(at 0 7.62 -90)
 			(layer "F.Fab")
 			(uuid "d9f8f9f7-9ee1-4c26-bc81-3d404c5d551c")
 			(effects
@@ -831,6 +837,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -843,6 +850,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -855,6 +863,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1024,7 +1033,7 @@
 			(uuid "3a7d1032-811b-41da-a260-0779f591bed1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.196 270)
+			(at 0 0.196 -90)
 			(layer "F.Fab")
 			(uuid "7e864a68-2b62-412c-9b44-a02d7142d781")
 			(effects
@@ -1135,6 +1144,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1147,6 +1157,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1159,6 +1170,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1565,6 +1577,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1577,6 +1590,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1589,6 +1603,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1675,6 +1690,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1687,6 +1703,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1699,6 +1716,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1785,6 +1803,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1797,6 +1816,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1809,6 +1829,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1892,7 +1913,7 @@
 		(descr "JST XAG series connector, SM05B-XAGKS-BN-TB (http://www.jst-mfg.com/product/pdf/eng/eXAG.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XAG top entry")
 		(property "Reference" "J2"
-			(at 0.81 -8 360)
+			(at 0.81 -8 0)
 			(layer "F.SilkS")
 			(uuid "d909bf5b-0869-429d-be94-1e58291dab1c")
 			(effects
@@ -1903,7 +1924,7 @@
 			)
 		)
 		(property "Value" "Stepper_2_conn"
-			(at 0 7.62 270)
+			(at 0 7.62 -90)
 			(layer "F.Fab")
 			(uuid "0edba93c-34db-45f7-be68-f65e0735c1bf")
 			(effects
@@ -1922,6 +1943,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1934,6 +1956,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1946,6 +1969,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2115,7 +2139,7 @@
 			(uuid "dc75aa34-1b8e-465f-9a9e-a3689ce809b0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.196 270)
+			(at 0 0.196 -90)
 			(layer "F.Fab")
 			(uuid "0d283210-c0ab-43c1-9327-9dcf6e3d137d")
 			(effects
@@ -2226,6 +2250,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2238,6 +2263,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2250,6 +2276,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2626,7 +2653,7 @@
 		(descr "JST XAG series connector, SM05B-XAGKS-BN-TB (http://www.jst-mfg.com/product/pdf/eng/eXAG.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XAG top entry")
 		(property "Reference" "J5"
-			(at -0.41315 -8 360)
+			(at -0.41315 -8 0)
 			(layer "F.SilkS")
 			(uuid "013cbe85-2921-4f0d-90b4-7539064d7092")
 			(effects
@@ -2637,7 +2664,7 @@
 			)
 		)
 		(property "Value" "Stepper_2_conn"
-			(at 0 7.62 270)
+			(at 0 7.62 -90)
 			(layer "F.Fab")
 			(uuid "f6fe192a-9ac6-4cd2-82af-34a6e42fbbb0")
 			(effects
@@ -2656,6 +2683,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2668,6 +2696,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2680,6 +2709,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2849,7 +2879,7 @@
 			(uuid "a2209fe5-9cf1-4e90-8d1a-4b63b56d78da")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.196 270)
+			(at 0 0.196 -90)
 			(layer "F.Fab")
 			(uuid "77d758ac-3ff8-4e64-b0d8-d1012ac16e9f")
 			(effects
@@ -2962,6 +2992,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2974,6 +3005,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2986,6 +3018,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3072,6 +3105,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3084,6 +3118,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3096,6 +3131,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3203,6 +3239,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3215,6 +3252,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3227,6 +3265,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4169,6 +4208,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4181,6 +4221,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4193,6 +4234,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4378,6 +4420,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4390,6 +4433,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4402,6 +4446,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4458,7 +4503,7 @@
 		(descr "JST XAG series connector, SM05B-XAGKS-BN-TB (http://www.jst-mfg.com/product/pdf/eng/eXAG.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XAG top entry")
 		(property "Reference" "J3"
-			(at 0.50685 -8.033875 360)
+			(at 0.50685 -8.033875 0)
 			(layer "F.SilkS")
 			(uuid "74afa254-5893-49aa-bd0b-9e0a76aafce8")
 			(effects
@@ -4469,7 +4514,7 @@
 			)
 		)
 		(property "Value" "Stepper_1_conn"
-			(at 0 7.62 270)
+			(at 0 7.62 -90)
 			(layer "F.Fab")
 			(uuid "50a1e6e8-111c-4c03-b5f5-3680370de0b1")
 			(effects
@@ -4488,6 +4533,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4500,6 +4546,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4512,6 +4559,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4681,7 +4729,7 @@
 			(uuid "d8e52f63-4c13-4f60-9e60-41b6c778e5a0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.196 270)
+			(at 0 0.196 -90)
 			(layer "F.Fab")
 			(uuid "728e0209-6788-4436-a8f5-3a10d2ed39b3")
 			(effects
@@ -5146,6 +5194,103 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fd86262f-17c1-43af-8b6a-992d86519802")
+	)
+	(gr_text "ESPHome Smart Blinds\nV2.0\nAuthor: Jakub Cihanek\n24/06/2024"
+		(at 117 102 90)
+		(layer "B.SilkS")
+		(uuid "6f11267a-c194-46fa-b379-79394661776e")
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "DRV1_OUT"
+		(at 179 81 0)
+		(layer "F.SilkS")
+		(uuid "07bb0f28-966d-480f-a313-267736ea1846")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DRV2"
+		(at 174 117 0)
+		(layer "F.SilkS")
+		(uuid "285da76a-7bcc-4b68-92ac-52e80945aedf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "IO_EXPANSION"
+		(at 150.5 89 0)
+		(layer "F.SilkS")
+		(uuid "7a4cca7e-a105-4555-9425-74107b96b09e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DRV2_OUT"
+		(at 179 114 0)
+		(layer "F.SilkS")
+		(uuid "99b2c70b-b362-45bd-afce-9dc817e54002")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DRV1"
+		(at 174 85 0)
+		(layer "F.SilkS")
+		(uuid "c88a3abb-1583-4c2d-9b92-fc4e47303e55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DRV2_OUT"
+		(at 179 143 0)
+		(layer "F.SilkS")
+		(uuid "d1914992-ea60-4a66-8334-a858396afbdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DRV1_OUT"
+		(at 179 110 0)
+		(layer "F.SilkS")
+		(uuid "fe102f02-7912-47e1-b9e0-10936840e0a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 193.5 93)
