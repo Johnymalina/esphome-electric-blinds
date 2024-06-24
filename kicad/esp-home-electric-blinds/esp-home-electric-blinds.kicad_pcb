@@ -4806,6 +4806,36 @@
 		)
 	)
 	(gr_line
+		(start 135 147.5)
+		(end 137.5 149)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2a6b4b25-6af5-4e24-a3c8-87365f45b08c")
+	)
+	(gr_line
+		(start 135 147.5)
+		(end 184 147.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2e8a74c7-84b8-4fad-8d50-fd7d04150683")
+	)
+	(gr_line
+		(start 137.5 146)
+		(end 135 147.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5b2dd987-f603-48a8-a8e8-77b4cacaf7cf")
+	)
+	(gr_line
 		(start 126 136)
 		(end 126 148)
 		(stroke
@@ -5202,8 +5232,7 @@
 		(effects
 			(font
 				(size 2.5 2.5)
-				(thickness 0.5)
-				(bold yes)
+				(thickness 0.1)
 			)
 			(justify mirror)
 		)
@@ -5276,6 +5305,18 @@
 			(font
 				(size 1 1)
 				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DANGER!!! HIGH VOLTAGE"
+		(at 146.5 147.5 0)
+		(layer "F.SilkS")
+		(uuid "e18d21dd-0f6c-4c8c-9655-b5b32d1571bb")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
 			)
 			(justify left bottom)
 		)
